@@ -1,0 +1,30 @@
+git log
+git status
+git add filename
+git add.
+git push origin main
+git commit -m "message"
+
+
+to see recent commits (git log)
+to see status like modified etc(git status)
+to add to staging area(git add .)(this should be done after modifications in the file)
+to commit message after adding(git commit -m "message")(to push to local repository)
+to push to online repository(git push origin main)
+///  (#vgj2r56976 )commits only hold that particular change but linked to the previous commits like a pointer
+/// everytime after modification of file we only push that particular change or modification to the online 
+repository from the local repository, that is why commits hold that particular change  
+/// every commit have parents except first commit (parents are nothing but the number of commitds done before
+that particular commit)
+/// finally done commit is called as head
+to get list of commits all we have done(git log --oneline)
+to know what is modified in our file after last commit (git diff)
+to know the modification between two commits(git diff 38y65465 778987t6)
+to create a new brach(git branch <branch name>)
+to navigate current location to the particular branch(git checkout <branch name>)
+if we want to merge any branch to the current branch(git merge <branch you want to merge>)
+the above command merges branches locally to update in repository we have to use command again
+(git push origin <branch name>)
+if we want to delete any branch(git branch -d <branchname>)
+after the above command that branch is deleted locally to delete it in repository we should use 
+the command(git push origin --delete <branch name>)
